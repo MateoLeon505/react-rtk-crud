@@ -49,7 +49,7 @@ const TaskForm = () => {
     return (
         <form onSubmit={handleSubmit}>
             <NavLink to={'/'}>See Taks</NavLink>
-            <span>Create Task</span>
+            <h2>Create Task</h2>
             <br></br>
             <input name="title" type="text" placeholder="title" onChange={handleChange} value={newTask.title}/>
             <textarea name="description"placeholder="description" onChange={handleChange} value={newTask.description}/>
